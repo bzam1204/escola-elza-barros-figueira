@@ -1,0 +1,133 @@
+body{
+    font-family: Montserrat;
+    background: #fefefe;
+    overflow:-moz-hidden-unscrollable;
+}
+
+.cabeçalho{
+    background: #828;
+    width: 100%;
+    height:4.978038067%;
+}
+
+.cabeçalho div{
+    position: relative;
+}
+
+.logo{
+    width:4.758418741%;
+}
+
+.EBF{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    color:white;
+    font-size: 200%;
+    font-family: Metamorphous;
+    position: absolute;
+    top:23.529411765%;
+    left:calc(50% - 17.825768668%);
+} 
+
+.lista{
+    position:absolute;
+    top: calc(34px - 9.5px); left:1100px;
+}
+
+.item{
+    display: inline;
+    margin:0;
+    padding: 2px 5px;  
+    transition: 300ms;
+}
+
+.item:hover{
+    background-color: #541554;
+    border-radius: 8px;
+}
+
+.item:active{
+   background: #9E205F;
+}
+
+.item a{
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.titulo{
+    font-size: 2em;
+    color: #828;
+    font-family: Montserrat;
+    margin: 3em 0 1em;
+    text-align: center;
+}
+
+.inputs{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border:1px solid #828;
+    border-radius: 8px;
+    width:calc(50% - 28px);
+    height: 1.5em;
+    transition: 0.3s;
+    cursor:pointer;
+    padding: 0 14px;
+    color:#471247;
+}
+
+.inputs:hover{
+    background: #94259486;
+}
+
+.inputs:focus{
+    background-color: #942594;
+    border:1px solid #551655;
+    color:#fefefe;
+    cursor: text;
+}
+
+.inputs:active{
+    background:#828;
+    border: 2px solid #828;
+}
+
+.nomeDoAluno{
+    display: block;
+    text-align: center;
+    margin: 1em 0 ;
+    color: #828;
+}
+
+.emailDoAluno{
+    display: block;
+    text-align: center;
+    margin: 1em 0 ;
+    color:#828;
+}
+
+.inputs:focus{
+    outline:none;
+}
+
+
+.enviar{
+    display: block;
+    margin: 2em auto;
+    border:1px solid #828;
+    border-radius: 16px;
+    width:25%;
+    height: 2em;
+    color:#828;
+    font-size: 1.5em;
+    background: white;
+    cursor:pointer;
+    transition:0.5s;
+}
+
+.enviar:hover{
+    background: #828;
+    color:white;
+}

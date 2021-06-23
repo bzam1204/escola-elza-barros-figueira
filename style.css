@@ -1,0 +1,110 @@
+body{
+    font-family:montserrat;
+    background:#fefefe;    
+}
+
+
+
+/* |||||||||||||||||||||||| CSS DO CABEÇALHO, LOGO E NOME |||||||||||||||||||||||||||||||||||||*/
+
+.cabeçalho{
+    background:#828;  
+    padding:0 0 1em;
+    /*width:940px;*/
+}
+
+.cabeçalho div{
+    width: 50%;   
+}
+ 
+.cabeçalho h1{
+    color:white;
+    font-family:Metamorphous;
+    font-size:21px;
+    text-align:center;
+    text-shadow: 0.5px 0.5px 2px #000000;
+}
+
+.cabeçalho img{
+    width:150px;
+    margin-left:calc(50% - 75px);   
+}
+
+.cabeçalho nav{    
+    position:absolute;
+    right:calc(25% - 231.5px);
+    top:83px;
+}
+
+.cabeçalho li{
+    display: inline;
+    padding: 0 10px;
+}
+
+.cabeçalho a{
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:18px; 
+    font-family:Montserrat;   
+    text-shadow: 0.5px 0.5px 2px #000000;
+} 
+
+.banner{
+    width:100%;
+}
+
+/*|||||||||||||||||||||||||| CSS seçao lema|||||||||||||||||||||||||||||||*/
+
+.lema{
+    width: 940px;
+    margin:0 auto;
+    height:314px;
+    
+}
+
+.lema img{
+    width:150px;
+    float:left;
+    margin-right:10px;
+    box-shadow:1px 1px 3px #000000;
+}
+
+.lema h2{
+    text-align: center;
+    margin:5em 0 2em 0;
+    font-size:2em;  
+    text-shadow:0.5px 0.5px 1px #000000;    
+}
+
+.lema p{
+    font-size:20px;
+    line-height:1.5em;    
+}
+
+.lema em{
+    font-style: italic;
+}
+
+.materias{
+    width: ;
+    margin:0 auto;
+    background: linear-gradient(#fefefe, rgb(76, 72, 76));
+    
+}
+
+.materias h2{
+    text-align:center;
+    font-size:2em;
+    margin:3em 0 2em 0;
+    text-shadow:0.5px 0.5px 1px #000000; 
+}
+
+.materias h3{
+    text-align:center;
+    font-size:1.5em;    
+}
+
+.maternal img{
+    width: 50px;
+}

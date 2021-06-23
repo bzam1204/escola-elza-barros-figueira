@@ -1,0 +1,11 @@
+.table{
+    width: 50%;
+    margin: 3em auto 2em;
+    border: 1px solid black;
+}
+
+.thead td{
+    width: calc(100% / 3);
+    border:1px solid black;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="matriculeSe.css">
+    <link rel="shortcut icon" href="img/favicon_ebf/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBF - Matricule-se</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <div>
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="logo da Escola Elza Barros Figueira"></a>
+            
+            <h2 class="EBF">Escola Elza Barros Figueira</h2>
+        </div> 
+
+        <nav class="navegaçao">
+            <ul class="lista">
+                <li class="item"><a href="index.html">Home</a></li><!--
+
+                --><li class="item"><a href="bio.html">Bio</a></li><!--
+
+                --><li class="item"><a href="portalDoAluno.html">Portal do Aluno</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="titulo">Matricule-se</h1>
+
+        <form>
+            <label class="nomeDoAluno" for="nomeDoAluno">Nome Completo</label>
+            <input type="text" name="nomeDoAluno"  class="inputs" data-input-nome>
+
+            <label class="emailDoAluno" for="email">Email</label>
+            <input type="email" name="email" class="inputs" data-input-email>
+
+            <input type="submit" value="Enviar" class="enviar" data-input-submit>
+        </form>
+    </main>
+
+    <script type='module' src="js/matriculeSe.js"></script>
+</body>
+</html>
